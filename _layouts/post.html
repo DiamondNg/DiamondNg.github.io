@@ -28,7 +28,16 @@ layout: default
     {% include navlinks.html %}
   </div>
 
-  <script src="https://giscus.app/client.js"
+
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+
+
+
+</article>
+
+<script src="https://giscus.app/client.js"
         data-repo="DiamondNg/DiamondNg.github.io"
         data-repo-id="R_kgDOOKmVPA"
         data-category-id="DIC_kwDOOKmVPM4Co_wY"
@@ -42,10 +51,3 @@ layout: default
         crossorigin="anonymous"
         async>
 </script>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
-
-
-
-</article>
